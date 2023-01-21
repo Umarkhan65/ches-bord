@@ -1,0 +1,26 @@
+table{
+    border-collapse: collapse;
+}
+.color{
+    background-color: blue;
+}
+.chang-color{
+    background-color: aqua;
+}
+.color-2{
+    background-color:blue;
+    height: 130px;
+    width: 25%;
+}.color-3{
+    background-color:aqua;
+    height: 130px;
+    width: 25%;
+
+}
+@media only screen and (
+    max-width: 600px){
+        table{
+            width: 300px;
+        }
+
+        }
